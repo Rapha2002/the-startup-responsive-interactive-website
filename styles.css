@@ -1,4 +1,7 @@
-
+header img {
+    max-width: 100%;
+    padding: none;
+}
 
 .noto-sans {
     font-family: "Noto Sans", serif;
@@ -9,8 +12,19 @@
     "wdth" 100;
 }
 
-h1 {
+main h1 {
     font-family: "Noto Sans", serif;
+    text-align: center;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main img {
+    display:grid;
+
+    max-width: 50%;
 }
 
 .vacatures-wrapper h3 {
