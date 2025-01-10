@@ -12,3 +12,12 @@
 h1 {
     font-family: "Noto Sans", serif;
 }
+
+.vacatures-wrapper h3 {
+    align-items: center;
+    padding: 1em;
+}
+
+article li {
+    text-decoration: none;
+}
