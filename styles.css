@@ -1,10 +1,16 @@
 h1 {
     font-family: 'Anek Latin', serif;
     font-size: 36px;
+    color: #e8712c;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 p {
     padding: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 body {
@@ -20,8 +26,8 @@ p {
 header img {
     max-width: 100%;
     padding: none;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
     width: 100%;
 }
 
@@ -34,15 +40,14 @@ header img {
     "wdth" 100;
 }
 
-main h1 {
-    font-family: 'Anek Latin', serif;
-    text-align: center;
-}
+
+
 
 main h2 {
     font-family: 'Anek Latin', serif;
     font-size: 36px;
     text-align: center;
+    color: #e8712c;
 }
 
 main img {
@@ -76,9 +81,25 @@ article li {
 
 }
 
+article a {
+    text-decoration: none;
+    color: #b65100;
+}
+
+.lijstvacatures {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 article {
     align-items: center;
     justify-content: center;
+    background-color: #dbdbdb;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    margin: 1em;
+    min-height: 15em;
 
 }
 
@@ -108,6 +129,11 @@ article h4 {
 
     main h2 {
         font-size: 48px;
+    }
+
+    p {
+        padding-left: 6em;
+        padding-right: 6em;
     }
 
 }
