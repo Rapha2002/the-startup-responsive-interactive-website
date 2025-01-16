@@ -1,10 +1,35 @@
+h1 {
+    font-family: 'Anek Latin', serif;
+    font-size: 36px;
+}
+
+p {
+    padding: 2em;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Anek Latin', serif;
+    font-size: 36px;
+}
+
+p {
+    font-family: 'Noto Sans', serif;
+}
+
 header img {
     max-width: 100%;
     padding: none;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    width: 100%;
 }
 
 .noto-sans {
-    font-family: "Noto Sans", serif;
+    font-family: 'Noto Sans', serif;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
@@ -13,14 +38,12 @@ header img {
 }
 
 main h1 {
-    font-family: sans-serif;
+    font-family: 'Anek Latin', serif;
     text-align: center;
-    background-color: rgb(240, 118, 74);
-    border-radius: 30px;
 }
 
 main h2 {
-    font-family: sans-serif;
+    
     text-align: center;
 }
 
@@ -30,15 +53,21 @@ main img {
     max-width: 50%;
 }
 
+.vacatures-wrapper article {
+    justify-content: center;
+    align-items: center;
+
+}
+
 .vacatures-wrapper h3 {
     align-items: center;
     padding: 1em;
-    font-family: sans-serif;
+    font-family: 'Noto Sans', serif;
     font-size: 30px;
 }
 
 .vacatures-wrapper h4 {
-    font-family: sans-serif;
+    font-family: Noto Sans;
     font-size: large;
 }
 
