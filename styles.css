@@ -11,10 +11,7 @@ body {
     margin: 0;
 }
 
-h2 {
-    font-family: 'Anek Latin', serif;
-    font-size: 36px;
-}
+
 
 p {
     font-family: 'Noto Sans', serif;
@@ -43,7 +40,8 @@ main h1 {
 }
 
 main h2 {
-    
+    font-family: 'Anek Latin', serif;
+    font-size: 36px;
     text-align: center;
 }
 
@@ -53,7 +51,9 @@ main img {
     max-width: 50%;
 }
 
-.vacatures-wrapper article {
+.vacatures-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
 
@@ -63,14 +63,51 @@ main img {
     align-items: center;
     padding: 1em;
     font-family: 'Noto Sans', serif;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .vacatures-wrapper h4 {
-    font-family: Noto Sans;
-    font-size: large;
+    font-family: 'Noto Sans', serif;
+    font-size: 16px;
 }
 
 article li {
     text-decoration: none;
+
+}
+
+article {
+    align-items: center;
+    justify-content: center;
+
+}
+
+article h3 {
+    text-align: center;
+    padding-left: none;
+}
+
+article h4 {
+    padding-left: 3em;
+}
+
+@media (min-width: 900px ) {
+
+
+    .vacatures-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    main h2 {
+        font-size: 48px;
+    }
+
 }
