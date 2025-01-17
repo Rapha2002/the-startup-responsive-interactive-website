@@ -15,74 +15,92 @@
     </header>
     <main>
         <h1>Werken bij Drukwerkdeal</h1>
-        <p class=>
+        <p>
             Precies weten wat je klanten willen, soms nog voordat ze het zelf weten. Dat is e-commerce. Om onze klanten optimaal te servicen maken we gebruik van een wereldwijd netwerk van leveranciers. 
             Werken bij Drukwerkdeal en Printdeal.be is: bouwen aan klantenservice, technologie en marketing waar je ‘u’ tegen zegt (al houden we het liever op ‘je’).
-            Interesse in de vacatures bij Drukwerkdeal en Printdeal.be? Scroll dan verder naar beneden.
+        <p class="interesse"> Interesse in de vacatures bij Drukwerkdeal en Printdeal.be? Scroll dan verder naar beneden.
             Enthousiast over ons, maar is dit niet de vacature waar je naar op zoek bent? Schrijf je dan in voor onze job alert!
         </p>
         <section class="lijstvacatures">
             <h2>
                 Onze vacatures
             </h2>
+            <div id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('alle')"> Alle</button>
+                <button class="btn" onclick="filterSelection('customercare')">Customer Care</button>
+                <button class="btn" onclick="filterSelection('development')">Development</button>
+                <button class="btn" onclick="filterSelection('finance')"> Finance</button>
+                <button class="btn" onclick="filterSelection('hr')"> HR</button>
+                <button class="btn" onclick="filterSelection('it')"> IT</button>
+                <button class="btn" onclick="filterSelection('marketing')"> Marketing</button>
+                <button class="btn" onclick="filterSelection('productie')"> Productie</button>
+                <button class="btn" onclick="filterSelection('supply')"> Supply Chain Management</button>
+                <button class="btn" onclick="filterSelection('algemeen')"> Algemeen</button>
+                <button class="btn" onclick="filterSelection('shop')"> Shop Management</button>
+                <button class="btn" onclick="filterSelection('product')"> Product Management</button>
+            </div>
             <div class="vacatures-wrapper">
-            <article>
-                <h3> Customer Care</h3> 
-                <h4> <a href="CustomerCareSpecialist">Customer Care Specialist</a> </h4>
-                <h4> <a href="Training&QualityLead">Training & Quality Lead</a> </h4>
-            </article>
-            <article>
-                <h3> Development</h3> 
-                <h4> <a href="SoftwareEngineer">Software Engineer</a> </h4>
-                <h4> <a href="StageSoftwareEngineeringDevelopment">Stage Software Engineering/Development</a> </h4>
-            </article>
-            <article>
-                <h3> Finance</h3> 
-                <h4> <a href="StageFinance">Stage Finance</a> </h4>
-                <h4> <a href="BusinessController">Business Controller</a> </h4>
-            </article>
-            <article>
-                <h3> HR</h3> 
-                <h4> <a href="CasemanagerVerzuim">Casemanager Verzuim</a> </h4>
-            </article>
-            <article>
-                <h3>IT</h3> 
-                <h4> <a href="FunctioneelApplicatiebeheerder">Functioneel Applicatiebeheerder</a> </h4> 
-            </article>
-            <article>
-                <h3> Marketing </h3> 
-                <h4> <a href="ContentMarketeer">Content Marketeer</a> </h4>
-            </article>
-            <article>
-                <h3> Productie </h3> 
-                <h4> <a href="Snijder">Snijder</a> </h4>
-                <h4> <a href="ProcessEngineer">Process Engineer</a> </h4>
-            </article>
-            <article>
-                <h3> Supply Chain Management</h3> 
-                <h4> <a href="MediorInkoper">Medior Inkoper</a> </h4>
-                <h4> <a href="StageDuurzaamheidafdeling">Stage duurzaamheidsafdeling</a> </h4>
-            </article>
-            <article>
-                <h3> Algemeen </h3> 
-                <h4> <a href="OpenSollicitatie">Open sollicitatie</a> </h4>
-                <h4> <a href="BusinessDeveloper">Business Developer</a> </h4>
-            </article>
-            <article>
-                <h3> Shop Management</h3> 
-                <h4> <a href="UXDesigner">UX Designer</a> </h4>
-                <h4> <a href="TrainingQualityLead">Training & Quality Lead</a> </h4>
-            </article>
-            <article>
-                <h3> Product Management</h3> 
-                <h4> <a href="PricingSpecialist">Pricing Specialist</a> </h4>
-                <h4> <a href="CategoryManagerServices">Category Manager Services</a> </h4>
-            </article>
-                <p>
-                    Enthousiast en wil je toch graag jouw gegevens bij ons achterlaten?
-                    Schrijf je in voor onze job alert
-                </p>
-            </article>
+                <div class="container">
+                    <div class="filterDiv customercare">
+                    <article>
+                        <h3> Customer Care</h3> 
+                        <h4> <a href="CustomerCareSpecialist">Customer Care Specialist</a> </h4>
+                        <h4> <a href="Training&QualityLead">Training & Quality Lead</a> </h4>
+                    </article>
+                    </div>
+                <article>
+                    <h3> Development</h3> 
+                    <h4> <a href="SoftwareEngineer">Software Engineer</a> </h4>
+                    <h4> <a href="StageSoftwareEngineeringDevelopment">Stage Software Engineering/Development</a> </h4>
+                </article>
+                <article>
+                    <h3> Finance</h3> 
+                    <h4> <a href="StageFinance">Stage Finance</a> </h4>
+                    <h4> <a href="BusinessController">Business Controller</a> </h4>
+                </article>
+                <article>
+                    <h3> HR</h3> 
+                    <h4> <a href="CasemanagerVerzuim">Casemanager Verzuim</a> </h4>
+                </article>
+                <article>
+                    <h3>IT</h3> 
+                    <h4> <a href="FunctioneelApplicatiebeheerder">Functioneel Applicatiebeheerder</a> </h4> 
+                </article>
+                <article>
+                    <h3> Marketing </h3> 
+                    <h4> <a href="ContentMarketeer">Content Marketeer</a> </h4>
+                </article>
+                <article>
+                    <h3> Productie </h3> 
+                    <h4> <a href="Snijder">Snijder</a> </h4>
+                    <h4> <a href="ProcessEngineer">Process Engineer</a> </h4>
+                </article>
+                <article>
+                    <h3> Supply Chain Management</h3> 
+                    <h4> <a href="MediorInkoper">Medior Inkoper</a> </h4>
+                    <h4> <a href="StageDuurzaamheidafdeling">Stage duurzaamheidsafdeling</a> </h4>
+                </article>
+                <article>
+                    <h3> Algemeen </h3> 
+                    <h4> <a href="OpenSollicitatie">Open sollicitatie</a> </h4>
+                    <h4> <a href="BusinessDeveloper">Business Developer</a> </h4>
+                </article>
+                <article>
+                    <h3> Shop Management</h3> 
+                    <h4> <a href="UXDesigner">UX Designer</a> </h4>
+                    <h4> <a href="TrainingQualityLead">Training & Quality Lead</a> </h4>
+                </article>
+                <article>
+                    <h3> Product Management</h3> 
+                    <h4> <a href="PricingSpecialist">Pricing Specialist</a> </h4>
+                    <h4> <a href="CategoryManagerServices">Category Manager Services</a> </h4>
+                </article>
+                    <p>
+                        Enthousiast en wil je toch graag jouw gegevens bij ons achterlaten?
+                        Schrijf je in voor onze job alert
+                    </p>
+                </article>
+                </div>
             </div>
         </section>
         <div class="druppelfotos">
