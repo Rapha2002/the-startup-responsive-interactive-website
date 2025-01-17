@@ -26,59 +26,69 @@
                 Onze vacatures
             </h2>
             <div id="myBtnContainer">
-                <button class="btn active" > Alle</button>
-                <button class="btn active" > Geen </button>
+                <button class="btn active" onclick="filterSelection('alle')"> Alle</button>
+                <button class="btn" onclick="filterSelection('customercare')">Customer Care</button>
+                <button class="btn" onclick="filterSelection('development')">Development</button>
+                <button class="btn" onclick="filterSelection('finance')"> Finance</button>
+                <button class="btn" onclick="filterSelection('hr')"> HR</button>
+                <button class="btn" onclick="filterSelection('it')"> IT</button>
+                <button class="btn" onclick="filterSelection('marketing')"> Marketing</button>
+                <button class="btn" onclick="filterSelection('productie')"> Productie</button>
+                <button class="btn" onclick="filterSelection('supply')"> Supply Chain Management</button>
+                <button class="btn" onclick="filterSelection('algemeen')"> Algemeen</button>
+                <button class="btn" onclick="filterSelection('shopmanagement')"> Shop Management</button>
+                <button class="btn" onclick="filterSelection('productmanagement')"> Product Management</button>
             </div>
-            <div class="container">
-                <div class="vacatures-wrapper">
-                    <article>
+            <div class="vacatures-wrapper">
+                <div class="container">
+                    <article class="filterDiv customercare">
                         <h3> Customer Care</h3> 
                         <h4> <a href="CustomerCareSpecialist">Customer Care Specialist</a> </h4>
                         <h4> <a href="Training&QualityLead">Training & Quality Lead</a> </h4>
                     </article>
-                <article>
+                <article class="filterDiv development">
                     <h3> Development</h3> 
                     <h4> <a href="SoftwareEngineer">Software Engineer</a> </h4>
                     <h4> <a href="StageSoftwareEngineeringDevelopment">Stage Software Engineering/Development</a> </h4>
                 </article>
-                <article>
+                <article class="filterDiv finance">
                     <h3> Finance</h3> 
                     <h4> <a href="StageFinance">Stage Finance</a> </h4>
                     <h4> <a href="BusinessController">Business Controller</a> </h4>
                 </article>
-                <article>
+                <article class="filterDiv hr">
                     <h3> HR</h3> 
                     <h4> <a href="CasemanagerVerzuim">Casemanager Verzuim</a> </h4>
                 </article>
-                <article>
+                <article class="filterDiv it">
                     <h3>IT</h3> 
                     <h4> <a href="FunctioneelApplicatiebeheerder">Functioneel Applicatiebeheerder</a> </h4> 
                 </article>
-                <article>
+                <article class="filterDiv marketing">
                     <h3> Marketing </h3> 
                     <h4> <a href="ContentMarketeer">Content Marketeer</a> </h4>
                 </article>
-                <article>
+                <article class="filterDiv productie">
                     <h3> Productie </h3> 
                     <h4> <a href="Snijder">Snijder</a> </h4>
                     <h4> <a href="ProcessEngineer">Process Engineer</a> </h4>
                 </article>
-                <article>
+                <article class="filterDiv supply">
                     <h3> Supply Chain Management</h3> 
                     <h4> <a href="MediorInkoper">Medior Inkoper</a> </h4>
                     <h4> <a href="StageDuurzaamheidafdeling">Stage duurzaamheidsafdeling</a> </h4>
                 </article>
-                <article>
+                <article class="filterDiv algemeen">
                     <h3> Algemeen </h3> 
                     <h4> <a href="OpenSollicitatie">Open sollicitatie</a> </h4>
                     <h4> <a href="BusinessDeveloper">Business Developer</a> </h4>
                 </article>
-                <article>
+                <article class="filterDiv shopmanagement">
                     <h3> Shop Management</h3> 
                     <h4> <a href="UXDesigner">UX Designer</a> </h4>
                     <h4> <a href="TrainingQualityLead">Training & Quality Lead</a> </h4>
                 </article>
-                <article>
+                <article class="filterDiv productmanagement">
                     <h3> Product Management</h3> 
                     <h4> <a href="PricingSpecialist">Pricing Specialist</a> </h4>
                     <h4> <a href="CategoryManagerServices">Category Manager Services</a> </h4>
