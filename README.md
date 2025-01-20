@@ -15,6 +15,8 @@ De instructies voor deze opdracht staan in: [INSTRUCTIONS.md](https://github.com
 ### Ademruimte en inspringen
 Voor inspringen gebruik ik altijd tabs (4 spaties). Inline-level elementen staan naast elkaar en block-level elementen onder elkaar.
 
+### Volgorde en nesten van CSS selectors
+CSS Selectors staan ongeveer op dezelfde volgorde als de HTML, en over het algemeen zijn de CSS selectors genest.
 
 ## Bronnen
 
