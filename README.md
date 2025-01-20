@@ -12,6 +12,9 @@ De instructies voor deze opdracht staan in: [INSTRUCTIONS.md](https://github.com
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
+### Ademruimte en inspringen
+Voor inspringen gebruik ik altijd tabs (4 spaties). Inline-level elementen staan naast elkaar en block-level elementen onder elkaar.
+
 
 ## Bronnen
 
