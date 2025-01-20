@@ -9,6 +9,7 @@ h1 {
 }
 
 p {
+    font-family: 'Noto Sans', serif;
     padding: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -20,12 +21,6 @@ p {
 
 body {
     margin: 0;
-}
-
-
-
-p {
-    font-family: 'Noto Sans', serif;
 }
 
 header img {
@@ -45,20 +40,16 @@ header img {
     "wdth" 100;
 }
 
-
-
-
-main h2 {
+main 
+    h2 {
     font-family: 'Anek Latin', serif;
     font-size: 36px;
     text-align: center;
     color: #e8712c;
-}
-
-main img {
-    display:grid;
-
-    max-width: 50%;
+    img {
+        display:grid;
+        max-width: 50%;
+    }
 }
 
 .vacatures-wrapper {
@@ -66,29 +57,16 @@ main img {
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
-
-}
-
-.vacatures-wrapper h3 {
-    align-items: center;
-    padding: 1em;
-    font-family: 'Noto Sans', serif;
-    font-size: 24px;
-}
-
-.vacatures-wrapper h4 {
-    font-family: 'Noto Sans', serif;
-    font-size: 16px;
-}
-
-article li {
-    text-decoration: none;
-
-}
-
-article a {
-    text-decoration: none;
-    color: #e8712c;
+    h3 {
+        align-items: center;
+        padding: 1em;
+        font-family: 'Noto Sans', serif;
+        font-size: 24px;
+    }
+    h4 {
+        font-family: 'Noto Sans', serif;
+        font-size: 16px;
+    }
 }
 
 .lijstvacatures {
@@ -135,28 +113,31 @@ article a {
     display: none;
 }
 
-
-
-
 article {
     align-items: center;
     justify-content: center;
-    background-color: #cecece;
+    background-color: #ffffff;
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
     border-bottom-right-radius: 2em;
     margin: 2em;
     min-height: 15em;
-
-}
-
-article h3 {
-    text-align: center;
-    padding-left: none;
-}
-
-article h4 {
-    padding-left: 3em;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.202);
+    h3 {
+        text-align: center;
+        padding-left: none;
+    }
+    h4 {
+        padding-left: 3em;
+    }
+    a {
+        text-decoration: none;
+        color: #e8712c;
+    }
+    li {
+        text-decoration: none;
+    
+    }
 }
 
 .druppelfotos {
@@ -173,13 +154,11 @@ footer{
 
 @media (min-width: 900px ) {
 
-
     .vacatures-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
         align-items: center;
-    
     }
 
     h1 {
