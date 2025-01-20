@@ -18,6 +18,9 @@ Voor inspringen gebruik ik altijd tabs (4 spaties). Inline-level elementen staan
 ### Volgorde en nesten van CSS selectors
 CSS Selectors staan ongeveer op dezelfde volgorde als de HTML, en over het algemeen zijn de CSS selectors genest.
 
+### Nesten van media queries
+Alle media queries zijn genest, zodat de CSS code overzichtelijker is. Voorbeelden van hoe ik deze media queries heb gebruikt zijn: Extra grid kolom voor vacatures bij minimaal 900px, grotere font sizes.
+
 ## Bronnen
 
 ## Licentie
