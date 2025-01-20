@@ -4,32 +4,30 @@ body {
 
 h1 {
     font-family: 'Anek Latin', serif;
-    font-size: 36px;
+    font-size: 9vw;
     color: #e8712c;
     text-align: center;
-    margin-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
+    margin-top: 0.5em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
     padding-top: 0.5em;
     @media (min-width: 900px) {
-            font-size: 48px;
+            
         }
 }
 
 p {
     font-family: 'Noto Sans', serif;
+    font-size: 16px;
     margin-left: 5%;
     margin-right: 5%;
     padding: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
     @media (min-width: 900px) {
-        p {
-            padding-left: 10em;
-            padding-right: 10em;
         }
-    }
 }
+
 
 .interesse {
     padding-top: 0em;
@@ -55,7 +53,7 @@ header img {
 main h2 {
     margin-top: 1em;
     font-family: 'Anek Latin', serif;
-    font-size: 36px;
+    font-size: 9vw;
     text-align: center;
     color: #e8712c;
     img {
@@ -63,7 +61,7 @@ main h2 {
         max-width: 50%;
     }
     @media (min-width: 900px) {
-            font-size: 48px;
+        
         }
 }
 
@@ -86,12 +84,19 @@ main h2 {
             grid-template-columns: 1fr 1fr;
             justify-content: center;
             align-items: center;
+            margin-left: 3em;
+            margin-right: 3em;
         }
 }
 
 .lijst-vacatures {
     padding-left: 1em;
     padding-right: 1em;
+}
+
+.button-container {
+    display: flex;
+    justify-content: right;
 }
 
 .btn {
@@ -102,10 +107,13 @@ main h2 {
     cursor: pointer;
     border-radius: 0.4em;
     margin: 0.3em;
-    margin-left: 2em;
+    margin-right: 2em;
     background-color: #e8712c;
     color: white;
     font-size: 16px;
+    @media (min-width: 900px) {
+        margin-right: 5em;
+    }
 }
 
 .btn:hover {
@@ -147,6 +155,7 @@ article {
         text-decoration: none;
     
     }
+    
 }
 
 .druppel-fotos {
