@@ -21,6 +21,9 @@ CSS Selectors staan ongeveer op dezelfde volgorde als de HTML, en over het algem
 ### Nesten van media queries
 Alle media queries zijn genest, zodat de CSS code overzichtelijker is. Voorbeelden van hoe ik deze media queries heb gebruikt zijn: Extra grid kolom voor vacatures bij minimaal 900px, grotere font sizes.
 
+### Naamgeving
+Ik heb over het algemeen consequente naamgeving aangehouden door middel van kebab-casing aan te houden en bijna alles in het nederlands te formuleren.
+
 ## Bronnen
 
 ## Licentie
