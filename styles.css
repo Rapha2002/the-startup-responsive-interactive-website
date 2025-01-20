@@ -7,6 +7,7 @@ h1 {
     font-size: 36px;
     color: #e8712c;
     text-align: center;
+    margin-top: 1em;
     padding-left: 1em;
     padding-right: 1em;
     padding-top: 0.5em;
@@ -17,6 +18,8 @@ h1 {
 
 p {
     font-family: 'Noto Sans', serif;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -50,6 +53,7 @@ header img {
 }
 
 main h2 {
+    margin-top: 1em;
     font-family: 'Anek Latin', serif;
     font-size: 36px;
     text-align: center;
@@ -85,7 +89,7 @@ main h2 {
         }
 }
 
-.lijstvacatures {
+.lijst-vacatures {
     padding-left: 1em;
     padding-right: 1em;
 }
@@ -108,15 +112,15 @@ main h2 {
     background-color: #b65100;
 }
 
-.info {
+.info.show-info {
     display: none;
-    transition: ease 2s;
 }
 
-
-.show-info {
+.info {
     display: block;
+    transition: all 0.3s ease-in-out;
 }
+
 
 article {
     align-items: center;

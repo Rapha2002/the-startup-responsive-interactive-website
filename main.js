@@ -1,5 +1,4 @@
 
-
 let showButton = document.querySelector('.btn');
 let containerText = document.querySelector('.info');
 
