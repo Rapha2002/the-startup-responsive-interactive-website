@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 h1 {
     font-family: 'Anek Latin', serif;
     font-size: 36px;
@@ -6,6 +10,9 @@ h1 {
     padding-left: 1em;
     padding-right: 1em;
     padding-top: 0.5em;
+    @media (min-width: 900px) {
+            font-size: 48px;
+        }
 }
 
 p {
@@ -13,14 +20,16 @@ p {
     padding: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
+    @media (min-width: 900px) {
+        p {
+            padding-left: 10em;
+            padding-right: 10em;
+        }
+    }
 }
 
 .interesse {
     padding-top: 0em;
-}
-
-body {
-    margin: 0;
 }
 
 header img {
@@ -40,8 +49,7 @@ header img {
     "wdth" 100;
 }
 
-main 
-    h2 {
+main h2 {
     font-family: 'Anek Latin', serif;
     font-size: 36px;
     text-align: center;
@@ -50,6 +58,9 @@ main
         display:grid;
         max-width: 50%;
     }
+    @media (min-width: 900px) {
+            font-size: 48px;
+        }
 }
 
 .vacatures-wrapper {
@@ -67,6 +78,11 @@ main
         font-family: 'Noto Sans', serif;
         font-size: 16px;
     }
+    @media (min-width: 900px) {
+            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            align-items: center;
+        }
 }
 
 .lijstvacatures {
@@ -150,28 +166,4 @@ article {
 
 footer{
     background-color: #e8712c;
-}
-
-@media (min-width: 900px ) {
-
-    .vacatures-wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
-        align-items: center;
-    }
-
-    h1 {
-        font-size: 48px;
-    }
-
-    main h2 {
-        font-size: 48px;
-    }
-
-    p {
-        padding-left: 10em;
-        padding-right: 10em;
-    }
-
 }
