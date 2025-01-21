@@ -102,22 +102,23 @@ main h2 {
 .btn {
     border: none;
     outline: none;
-    padding: 8px 12px;
+    padding: 16px;
     background-color: #e6e6e6;
     cursor: pointer;
-    border-radius: 0.4em;
+    border-radius: 4px;
     margin: 0.3em;
     margin-right: 2em;
-    background-color: #e8712c;
+    background-color: var(--primary-clr);
     color: white;
     font-size: 16px;
+    font-weight: bold;
     @media (min-width: 900px) {
         margin-right: 5em;
     }
 }
 
 .btn:hover {
-    background-color: #b65100;
+    background-color: var(--secondary-clr);
 }
 
 .info.show-info {
@@ -126,6 +127,7 @@ main h2 {
 
 .info {
     display: block;
+
     transition: all 0.3s ease-in-out;
 }
 
