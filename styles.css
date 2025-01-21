@@ -307,3 +307,14 @@ footer {
     justify-content: center;
 }
 
+.footerinfo {
+    padding: 3em;
+}
+
+.adres {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3em;
+    color: #e6e6e6bb;
+    text-shadow: rgba(0, 0, 0, 0.469) 0px 1px 1px;
+}
