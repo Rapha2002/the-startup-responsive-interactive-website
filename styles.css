@@ -6,12 +6,13 @@ body {
 h1 {
     font-family: 'Anek Latin', serif;
     font-size: 9vw;
-    color: #e8712c;
+    color: var(--primary-clr);
     text-align: center;
     margin-top: 0.5em;
     padding-left: 0.3em;
     padding-right: 0.3em;
     padding-top: 0.5em;
+    cursor: default;
     @media (min-width: 900px) {
             
         }
@@ -55,7 +56,8 @@ main h2 {
     font-family: 'Anek Latin', serif;
     font-size: 9vw;
     text-align: center;
-    color: #e8712c;
+    cursor: default;
+    color: var(--primary-clr);
     img {
         display:grid;
         max-width: 50%;
@@ -102,8 +104,6 @@ main h2 {
     background-color: #e6e6e6;
     cursor: pointer;
     border-radius: 4px;
-    
-    
     margin-bottom: 4em;
     background-color: var(--primary-clr);
     color: white;
@@ -159,11 +159,6 @@ article {
     }
     
 }
-
-.slider {
-
-}
-
 
 .slider {
     height: 450px;
@@ -242,24 +237,50 @@ img:hover {
     transform: rotateZ(180deg); 
 }
 
+.quote {
+    padding-left: 25%;
+    padding-right: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .nieuwsblog {
-    li  {
-        display: flex;
-        justify-content: center;
-        list-style: none;
-        
+    ul  {
+        display: inline-block;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 25%;
+        padding-right: 25%;
     }
+    li  {
+        display: block;
+        list-style: none;
+        padding-bottom: 3em;
+        text-align: left;
+    }
+
     a {
         color: black;
         text-decoration: none;
+        font-style: italic;
+        display: block;
+    }
+    a:hover {
+        background-color: var(--primary-clr);
+        color: #ffffff;
     }
 }
 
 footer {
-    background-color: #e8712c;
+    padding: 2em;
+    background-color: var(--primary-clr);
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
     p {
         color: white;
+        padding-left: 10em;
+        padding-right: 10em;
     }
     a {
         color: #e6e6e6bb;
@@ -277,5 +298,12 @@ footer {
     padding: 1em;
     color: white;
     text-decoration: none;
+    text-shadow: none;
+}
+
+.privacy {
+    padding-top: 4em;
+    display:flex;
+    justify-content: center;
 }
 
