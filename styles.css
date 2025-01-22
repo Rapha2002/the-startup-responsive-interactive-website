@@ -90,8 +90,8 @@ main h2 {
             grid-template-columns: 1fr 1fr;
             justify-content: center;
             align-items: center;
-            margin-left: 3em;
-            margin-right: 3em;
+            margin-left: 1em;
+            margin-right: 1em;
         }
 }
 
