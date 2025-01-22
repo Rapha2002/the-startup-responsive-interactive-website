@@ -10,6 +10,9 @@ De careerpage van Drukwerkdeal heeft een redesign nodig in hun nieuwe huisstijl.
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 De website is responsive. Ik heb voor de vacatures grid gebruikt, die bij 900px en 1200px een extra kolom vacatures toevoegen. 
+![Scherm­afbeelding 2025-01-22 om 20 47 14](https://github.com/user-attachments/assets/ea0d14f6-c851-46d0-924a-213784a2c7ff)
+![Scherm­afbeelding 2025-01-22 om 20 48 37](https://github.com/user-attachments/assets/fc35b49b-7297-473f-9213-947b07b1b4dc)
+![Scherm­afbeelding 2025-01-22 om 20 49 30](https://github.com/user-attachments/assets/85b90d9e-0425-413d-b36b-e3cd405ce814)
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
