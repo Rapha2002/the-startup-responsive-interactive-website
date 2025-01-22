@@ -84,6 +84,7 @@ main h2 {
         align-items: center;
         font-size: 24px;
         padding-top: 1em;
+        color: var(--primary-clr);
     }
 
     @media (min-width: 900px) {
@@ -258,6 +259,7 @@ img:hover {
     color: rgb(104, 104, 104);
     padding-left: 1em;
     padding-right: 1em;
+    padding-bottom: 4em;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -271,6 +273,17 @@ img:hover {
         font-weight: 400;
         color: var(--primary-clr);
     }
+}
+
+.jobalert {
+    padding-top: 10em;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    margin: 4em;
+    margin-top: 0;
 }
 
 .nieuwsblog {
@@ -303,15 +316,15 @@ img:hover {
         border-style: solid;
         border-width: 2px;
         border-color: rgb(228, 228, 228);
-        transition: color 0.1s ease-in-out;
-        transition: background-color 0.1s ease-in;
-        transition: border-color 0.1s ease-in;
+        transition: color 0.2s ease-in;
+        transition: background-color 0.2s ease-in;
+        transition: border-color 0.2s ease-in;
     }
     a:hover {
         background-color: var(--primary-clr);
         border-color: var(--primary-clr);
         color: #ffffff;
-        transition: color 0.1s ease-in,;
+        transition: color 0.4s ease-in,;
     }
     @media (min-width: 900px) {
         font-size: var(--md);
