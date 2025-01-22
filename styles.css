@@ -93,6 +93,9 @@ main h2 {
             margin-left: 1em;
             margin-right: 1em;
         }
+    @media (min-width: 1200px) {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
 }
 
 .lijst-vacatures {
