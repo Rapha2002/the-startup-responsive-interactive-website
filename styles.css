@@ -45,8 +45,8 @@ p {
 header img {
     max-width: 100%;
     padding: none;
-    border-bottom-left-radius: 2em;
-    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
     width: 100%;
 }
 
@@ -163,6 +163,7 @@ article {
             font-size: var(--md);
         }
     }
+
     li {
         text-decoration: none;
         list-style-type: none;
@@ -250,13 +251,22 @@ img:hover {
 
 .quote {
     font-size: var(--xl);
-    padding-left: 25%;
-    padding-right: 25%;
+    font-weight: 600;
+    color: rgb(104, 104, 104);
+    padding-left: 1em;
+    padding-right: 1em;
     display: flex;
     justify-content: center;
+    text-align: center;
     flex-direction: column;
     @media (min-width: 900px) {
         font-size: var(--md);
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    p {
+        font-weight: 400;
+        color: var(--primary-clr);
     }
 }
 
@@ -295,17 +305,16 @@ footer {
     font-size: var(--xl);
     padding: 2em;
     background-color: var(--primary-clr);
-    border-top-left-radius: 2em;
-    border-top-right-radius: 2em;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
     p {
         color: white;
         padding-left: 10em;
         padding-right: 10em;
     }
     a {
-        color: #e6e6e6bb;
         text-decoration: none;
-        text-shadow: rgba(0, 0, 0, 0.469) 0px 1px 1px;
+        color: #ffd5b1a5;
     }
     @media (min-width: 900px) {
         font-size: var(--md);
@@ -335,6 +344,7 @@ footer {
     padding-top: 4em;
     display:flex;
     justify-content: center;
+    text-shadow: rgba(0, 0, 0, 0.469) 0px 1px 1px;
 }
 
 .footerinfo {
