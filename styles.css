@@ -27,9 +27,9 @@ p {
     padding-top: 1em;
     padding-bottom: 1em;
     @media (min-width: 900px) {
+        font-size: var(md);
         margin-left: 5em;
         margin-right: 5em;
-        font-size: var(md);
         }
     @media (min-width: 1200px) {
         margin-left: 20em;
@@ -118,7 +118,7 @@ main h2 {
     color: white;
     font-weight: bold;
     @media (min-width: 900px) {
-        
+        font-size: var(--md);
     }
 }
 
@@ -298,6 +298,9 @@ footer {
         color: #e6e6e6bb;
         text-decoration: none;
         text-shadow: rgba(0, 0, 0, 0.469) 0px 1px 1px;
+    }
+    @media (min-width: 900px) {
+        font-size: var(md);
     }
 }
 
