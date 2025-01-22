@@ -81,8 +81,8 @@ main h2 {
     justify-content: center;
     align-items: center;
     h3 {
-        align-items: center;
-        font-size: 24px;
+        font-size: var(--xl);
+        font-weight: 800;
         padding-top: 1em;
         color: var(--primary-clr);
     }
@@ -153,8 +153,9 @@ article {
     border-width: 4px;
     border-color: var(--primary-clr);
     h3 {
-        text-align: center;
-        padding-left: none;
+        padding-bottom: 1em;
+        padding-left: 4em;
+        padding-right: 4em;
     }
     
     a {
@@ -170,9 +171,10 @@ article {
 
     li {
         text-decoration: none;
-        list-style-type: none;
-        padding: 1em;
-        font-size: 16px;
+        list-style-type: square;
+        padding-right: 2em;
+        padding-bottom: 1em;
+        font-size: var(--md);
     }
 }
 
@@ -275,19 +277,55 @@ img:hover {
     }
 }
 
-.jobalert {
-    padding-top: 10em;
+.job-alert {
+    p {
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-bottom: 2em;
+        @media (min-width: 900px) {
+            padding-left: 10em;
+            padding-right: 10em;
+        }
+    }
 }
 
 .forms {
     display: flex;
     flex-direction: column;
-    margin: 4em;
-    margin-top: 0;
+    justify-content: center;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: none;
+    border-radius: 8px;
+    @media (min-width: 900px) {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
 }
 
+.forms input[type="text"],
+.forms input[type="email"] {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.forms input[type="text"]:focus,
+.forms input[type="email"]:focus {
+    border-color: var(--primary-clr);
+    outline: none;
+    box-shadow: 0 0 2px var(--primary-clr);
+}
+
+
+
 .nieuwsblog {
-    padding-top: 2em;
+    padding-top: 4em;
     padding-bottom: 5em;
     font-size: var(--xl);
     ul  {
