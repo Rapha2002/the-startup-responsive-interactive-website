@@ -10,6 +10,7 @@ De careerpage van Drukwerkdeal heeft een redesign nodig in hun nieuwe huisstijl.
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 Responsive
+
 De website is responsive. Ik heb voor de vacatures grid gebruikt, die bij 900px en 1200px een extra kolom vacatures toevoegen. 
 
 
@@ -18,6 +19,7 @@ De website is responsive. Ik heb voor de vacatures grid gebruikt, die bij 900px 
 ![Scherm­afbeelding 2025-01-22 om 20 49 30](https://github.com/user-attachments/assets/85b90d9e-0425-413d-b36b-e3cd405ce814)
 
 Ontwerpkeuzes
+
 Als interactie op de pagina heb ik een knop gemaakt die alle vacatures togglet van zichtbaar naar onzichtbaar en weer zichtbaar. Hierdoor kan je gemakkelijker de rest van de pagina bekijken.
 Als feedforward heb ik gezorgd dat de knop donkerder wordt als je er op hovert.
 
