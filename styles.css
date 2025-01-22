@@ -32,8 +32,8 @@ p {
         margin-right: 5em;
         }
     @media (min-width: 1200px) {
-        margin-left: 20em;
-        margin-right: 20em;
+        margin-left: 10em;
+        margin-right: 10em;
         }
 }
 
@@ -251,7 +251,7 @@ img:hover {
 
 .quote {
     font-size: var(--xl);
-    font-weight: 600;
+    font-weight: 700;
     color: rgb(104, 104, 104);
     padding-left: 1em;
     padding-right: 1em;
