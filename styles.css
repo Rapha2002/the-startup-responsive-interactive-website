@@ -20,13 +20,19 @@ h1 {
 }
 
 p {
-    font-size: 16px;
-    margin-left: 5%;
-    margin-right: 5%;
+    font-size: 1.25rem;
+    margin-left: 1em;
+    margin-right: 1em;
     padding: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
     @media (min-width: 900px) {
+        margin-left: 5em;
+        margin-right: 5em;
+        }
+    @media (min-width: 1200px) {
+        margin-left: 20em;
+        margin-right: 20em;
         }
 }
 
@@ -38,7 +44,7 @@ p {
 header img {
     max-width: 100%;
     padding: none;
-    border-bottom-left-radius: 0em;
+    border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
     width: 100%;
 }
@@ -295,6 +301,13 @@ footer {
     justify-content: center;
 }
 
+
+.adres {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3em;    
+}
+
 .footernav a {
     padding: 1em;
     color: white;
@@ -310,12 +323,4 @@ footer {
 
 .footerinfo {
     padding: 3em;
-}
-
-.adres {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 3em;
-    color: #e6e6e6bb;
-    text-shadow: rgba(0, 0, 0, 0.469) 0px 1px 1px;
 }
