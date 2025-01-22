@@ -8,7 +8,7 @@ h1 {
     font-size: 9vw;
     color: var(--primary-clr);
     text-align: center;
-    margin-top: 0.5em;
+    margin-top: 1em;
     padding-left: 0.3em;
     padding-right: 0.3em;
     padding-top: none;
@@ -83,7 +83,6 @@ main h2 {
     h3 {
         font-size: var(--xl);
         font-weight: 800;
-        padding-top: 1em;
         color: var(--primary-clr);
     }
 
@@ -141,6 +140,7 @@ main h2 {
 
 
 article {
+    padding: 1em;
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
@@ -152,9 +152,10 @@ article {
     border-style: solid;
     border-width: 4px;
     border-color: var(--primary-clr);
+    box-shadow: #00000069 0px 0px 1em;
     h3 {
-        padding-bottom: 1em;
-        padding-left: 4em;
+        padding: 1em;
+        padding-left: 3em;
         padding-right: 4em;
     }
     
@@ -162,7 +163,7 @@ article {
         text-decoration: none;
         text-emphasis: bold;
         color: #000000;
-        font-weight: bold;
+        font-weight: 400;
         font-size: var(--xl);
         @media (min-width: 900px) {
             font-size: var(--md);
