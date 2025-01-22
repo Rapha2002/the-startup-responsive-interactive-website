@@ -24,10 +24,10 @@ p {
     margin-left: 1em;
     margin-right: 1em;
     padding: 2em;
-    padding-top: 1em;
+    padding-top: 0em;
     padding-bottom: 1em;
     @media (min-width: 900px) {
-        font-size: var(md);
+        font-size: var(--md);
         margin-left: 5em;
         margin-right: 5em;
         }
@@ -159,6 +159,9 @@ article {
         color: #000000;
         font-weight: bold;
         font-size: var(--xl);
+        @media (min-width: 900px) {
+            font-size: var(--md);
+        }
     }
     li {
         text-decoration: none;
@@ -166,7 +169,6 @@ article {
         padding: 1em;
         font-size: 16px;
     }
-    
 }
 
 .slider {
@@ -253,6 +255,9 @@ img:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    @media (min-width: 900px) {
+        font-size: var(--md);
+    }
 }
 
 .nieuwsblog {
@@ -281,6 +286,9 @@ img:hover {
         background-color: var(--primary-clr);
         color: #ffffff;
     }
+    @media (min-width: 900px) {
+        font-size: var(--md);
+    }
 }
 
 footer {
@@ -300,7 +308,7 @@ footer {
         text-shadow: rgba(0, 0, 0, 0.469) 0px 1px 1px;
     }
     @media (min-width: 900px) {
-        font-size: var(md);
+        font-size: var(--md);
     }
 }
 
