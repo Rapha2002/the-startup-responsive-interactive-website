@@ -152,7 +152,7 @@ article {
     border-style: solid;
     border-width: 4px;
     border-color: var(--primary-clr);
-    box-shadow: #00000069 0px 0px 1em;
+    box-shadow: #00000049 0em 0em 0.6em;
     h3 {
         padding: 1em;
         padding-left: 3em;
@@ -180,7 +180,7 @@ article {
 }
 
 .slider {
-    height: 450px;
+    height: 300px;
     margin: auto;
     position: relative;
     width: 90%;
@@ -262,7 +262,7 @@ img:hover {
     color: rgb(104, 104, 104);
     padding-left: 1em;
     padding-right: 1em;
-    padding-bottom: 4em;
+    padding-bottom: 6em;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -279,6 +279,8 @@ img:hover {
 }
 
 .job-alert {
+    display: flex;
+    flex-direction: column;
     p {
         padding-left: 2em;
         padding-right: 2em;
@@ -298,9 +300,13 @@ img:hover {
     padding-right: 3em;
     padding-top: none;
     border-radius: 8px;
-    @media (min-width: 900px) {
+    @media (min-width: 600px) {
         padding-left: 10em;
         padding-right: 10em;
+    }
+    @media (min-width: 900px) {
+        padding-left: 20em;
+        padding-right: 20em;
     }
 }
 
@@ -314,6 +320,7 @@ img:hover {
     font-size: 14px;
     color: #333;
     box-sizing: border-box;
+    
 }
 
 .forms input[type="text"]:focus,
@@ -323,7 +330,47 @@ img:hover {
     box-shadow: 0 0 2px var(--primary-clr);
 }
 
+textarea#motivatie {
+    font-family: 'Noto Sans', serif;
+    height:10em;
+    padding: 1em;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    resize: none;
+}
 
+textarea#motivatie:focus {
+    border-color: var(--primary-clr);
+    outline: none;
+    box-shadow: 0 0 2px var(--primary-clr);
+}
+
+::placeholder {
+    color: #cfcfcf;
+}
+
+.btn2 {
+    display: block;
+    text-align: center;
+    font-size: var(--xl);
+    border: none;
+    outline: none;
+    padding: 16px;
+    background-color: #e6e6e6;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 4em;
+    background-color: var(--primary-clr);
+    color: white;
+    font-weight: bold;
+    @media (min-width: 900px) {
+        font-size: var(--md);
+    }
+}
 
 .nieuwsblog {
     padding-top: 4em;
